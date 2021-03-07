@@ -12,6 +12,7 @@ struct matrix *new_matrix(int rows, int cols);
 void free_matrix(struct matrix *m);
 void grow_matrix(struct matrix *m, int newcols);
 void copy_matrix(struct matrix *a, struct matrix *b);
+void clear_matrix(struct matrix *a);
 
 //functions students need to complete
 void print_matrix(struct matrix *m);
